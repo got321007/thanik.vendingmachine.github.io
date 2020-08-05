@@ -71,9 +71,47 @@
                         <div class="card-body">
                             <h5 class="card-title">โค้ก 325 มล.</h5>
                             <p class="card-text">ราคา 15 บาท</p>
-                            <button type="button" class="button button2">
+                            <button type="button" class="button button2" data-toggle="modal" data-target="#myModal">
                                 <img src="img/shopping-cart.png" alt="cart" style="margin-right: 5px;">
                                 เลือกสินค้า</button>
+
+                            <!-- The Modal -->
+                            <div class="modal fade" id="myModal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">ยืนยันการสั่งซื้อ</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-4">
+                                                    <img src="img/colacola1.png" class="card-img" alt="cocacola">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">โค้ก 325 มล.</h5>
+                                                        <p class="card-text">ราคา 15 บาท</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">ยืนยัน</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
